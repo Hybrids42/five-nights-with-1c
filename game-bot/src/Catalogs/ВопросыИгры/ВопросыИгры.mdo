@@ -47,6 +47,24 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="0483bc66-e0e6-4aa1-b4c8-806ad4aa0e97">
+    <name>Картинка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Картинка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="94d5e9e4-366d-449f-8a91-10051022f7bc">
     <producedTypes>
       <objectType typeId="30da68c9-c867-47a7-b0a7-589b779a2e74" valueTypeId="5b25dc13-4ce6-4f20-8cb7-00fc8f01299b"/>
@@ -87,7 +105,7 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
-  <forms uuid="8e14d662-d7c4-4e85-a60f-802e1a5208c4">
+  <forms uuid="f81a2b02-0b07-4e47-92a2-d90d1b1846d8">
     <name>ФормаЭлемента</name>
     <synonym>
       <key>ru</key>
