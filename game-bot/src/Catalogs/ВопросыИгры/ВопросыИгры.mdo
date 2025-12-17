@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c9a19719-bc70-4529-b684-0bb428b347e1">
+  <producedTypes>
+    <objectType typeId="5e92e347-a2d0-411a-9095-bf3ad15ff837" valueTypeId="c3f790e3-3f02-4ab9-a8bc-544f8349b3ea"/>
+    <refType typeId="78cad46b-e9bc-40b1-84d7-d28a44beab18" valueTypeId="b778e623-f6ae-48c4-812f-8d08e8cd9923"/>
+    <selectionType typeId="5a7f2cbc-99b2-4caa-ac57-76cd0fad8be9" valueTypeId="4696b735-f8b9-4f34-8a97-1e58a3dd24bb"/>
+    <listType typeId="70ea3cf0-7b62-494c-bff3-df378347aab0" valueTypeId="00f8fd2e-8a70-4969-afc4-5fab8cc606c7"/>
+    <managerType typeId="f6c2dbc2-5679-44a9-94bd-791c3d286c11" valueTypeId="717c4790-81d7-4f52-a184-46f00a11e9c3"/>
+  </producedTypes>
+  <name>ВопросыИгры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вопросы игры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВопросыИгры.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВопросыИгры.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ВопросыИгры.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="ef4f52cc-ab3d-47e3-942d-2cf702f468e3">
+    <name>Текст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="94d5e9e4-366d-449f-8a91-10051022f7bc">
+    <producedTypes>
+      <objectType typeId="30da68c9-c867-47a7-b0a7-589b779a2e74" valueTypeId="5b25dc13-4ce6-4f20-8cb7-00fc8f01299b"/>
+      <rowType typeId="3e5b251f-39cb-40a0-8c20-ca5ff08d59e0" valueTypeId="4b13b261-8461-42e2-962b-7e981654a732"/>
+    </producedTypes>
+    <name>Ответы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответы</value>
+    </synonym>
+    <attributes uuid="4ad5fd6c-10c8-4b89-b457-707f49db4fec">
+      <name>Следующее</name>
+      <synonym>
+        <key>ru</key>
+        <value>Следующее</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВопросыИгры</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="be341819-90d5-4a83-ab5f-c162483d9346">
+      <name>Текст</name>
+      <synonym>
+        <key>ru</key>
+        <value>Текст</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="8e14d662-d7c4-4e85-a60f-802e1a5208c4">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

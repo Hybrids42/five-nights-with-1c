@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7d1e4fe9-daaf-4805-9880-ad04f481ef3d">
+  <name>Игра</name>
+  <synonym>
+    <key>ru</key>
+    <value>Игра</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ВопросыИгры</content>
+</mdclass:Subsystem>
